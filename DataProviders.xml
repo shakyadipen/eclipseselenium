@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DataProviders">
+<parameter name="email" value="shakyadipen@gmail.com"/>
+  <test thread-count="5" name="DataProviders">
+    <classes>
+      <class name="DataProviders.LearnDataprovider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
